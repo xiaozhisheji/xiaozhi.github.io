@@ -2,6 +2,7 @@
 layout: post
 title: Jekyll搭建个人博客(二)
 date: 2017-09-05
+description: "HEXO配置，HEXO+Github，搭建自己的博客"
 tags: 博客   
 ---
 
