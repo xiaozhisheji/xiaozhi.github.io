@@ -162,7 +162,7 @@ blockquote {
 
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-weight: lighter;
-  font-size: 1em;
+  font-size: 2em;
   border-left: 3px solid #4F4F4F;
 }
 blockquote p:last-child {
