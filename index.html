@@ -2,6 +2,15 @@
 layout: default
 ---
 
+<div id=loading style="position:absolute; left:423px; top:261px; width:227px; height:20px; z-index:1">
+正在载入中,请稍等.....</div>
+<script>
+function closeDiv()
+{
+　　document.getElementById('loading').style.visibility='hidden';
+}
+</script>
+
 <div class="main-post-list hidden">
 
   <ol class="post-list">
@@ -9,12 +18,12 @@ layout: default
     <li>
       <h2 class="post-list__post-title post-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{ post.title }}</a></h2>
       <p class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 250 }}&hellip;</p>
-      <div class="post-list__meta">        
+      <div class="post-list__meta">
         <time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__meta--date date">
-          <img src="/images/calendar.png" width="20px" /> 
-          {{ post.date | date: "%F"}}</time> 
+          <img src="/images/calendar.png" width="20px" />
+          {{ post.date | date: "%F"}}</time>
         <div class = "tag-img-icon">
-          <img src="/images/tag-icon.svg" width="20px" /> 
+          <img src="/images/tag-icon.svg" width="20px" />
         </div>
         <a href="/tags">
           <div class = "post-list-icon-mate">
