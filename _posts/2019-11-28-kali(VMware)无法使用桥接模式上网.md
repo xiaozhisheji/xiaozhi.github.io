@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "kali(vm虚拟机)桥接模式无法上网"
+title: "解决kali(vm虚拟机)桥接模式无法上网问题"
 date: 2019-11-28
-description: "kali(vm虚拟机)桥接模式无法上网"
+description: "解决kali(vm虚拟机)桥接模式无法上网问题"
 tag: kali
 ---
 
@@ -49,10 +49,6 @@ nameserver 10.251.xx.xxx
 
 
 <img src="https://miao.su/images/2019/08/09/9150e4e5gy1g0sab5n1uej2043037weba662a.jpg" height="100" alt="点个赞再走呗">
-
-### 最终结果
-
-![278168.png](https://miao.su/images/2019/10/04/278168.png)
 
 ### 欢迎转载、留言
 
